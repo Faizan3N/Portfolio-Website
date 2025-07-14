@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Client Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Faizan Ali</h1>
+    <nav>
+      <ul class="navbar">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+      </ul>
+    </nav>
+    <div class="home-icon">🏠</div>
+  </header>
+
+  <main>
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+      <p>Hello! I'm Faizan, a passionate web developer with 3 years of experience in creating beautiful and functional websites for businesses and individuals.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <div class="skill">
+          <img src="html.png" alt="HTML">
+          <span>HTML</span>
+        </div>
+        <div class="skill">
+          <img src="css.png" alt="CSS">
+          <span>CSS</span>
+        </div>
+        <div class="skill">
+          <img src="js.png" alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Weather App:</strong> Built using JS APIs to show real-time weather data.</li>
+        <li><strong>Task Manager:</strong> A responsive to-do app with CRUD operations.</li>
+        <li><strong>Portfolio Site:</strong> Fully responsive personal portfolio website.</li>
+      </ul>
+    </section>
+
+    <!-- Recommendations Section -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <ul id="recommendation-list">
+        <li>"John is a dedicated developer who always delivers on time!" - Kamran</li>
+        <li>"Amazing work with clean and optimized code!" - Ali</li>
+        <li>"Highly recommend John for frontend projects." - Saad</li>
+      </ul>
+
+      <h3>Add Your Recommendation:</h3>
+      <input type="text" id="newRec" placeholder="Write your recommendation">
+      <button onclick="addRecommendation()">Submit</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

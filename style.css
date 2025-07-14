@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f0f2f5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.home-icon {
+  font-size: 24px;
+}
+
+section {
+  padding: 20px;
+  background: white;
+  margin: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.skills-list {
+  display: flex;
+  gap: 20px;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+}
+
+input, button {
+  padding: 10px;
+  margin-top: 10px;
+}
