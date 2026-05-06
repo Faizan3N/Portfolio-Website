@@ -1,7 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.PNG";
-import projImg2 from "../assets/img/project-img2.png";
 import portfolioProjectImg from "../assets/img/portfolio-project.png";
 import restaurantWebsiteImg from "../assets/img/restaurant-website.png";
 import aiBrainTumorDiagnosisImg from "../assets/img/ai-brain-tumor-diagnosis.png";
