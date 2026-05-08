@@ -20,5 +20,3 @@ Designed to showcase my projects, skills, and experience as a developer.
 | Deployment | Vercel |
 
 
-
-## 📁 Project Structure
